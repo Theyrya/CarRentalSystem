@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
             label2 = new Label();
             label5 = new Label();
@@ -54,8 +54,9 @@
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(4, 4, 4, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(838, 110);
+            panel1.Size = new Size(1257, 165);
             panel1.TabIndex = 0;
             // 
             // label2
@@ -63,9 +64,10 @@
             label2.AutoSize = true;
             label2.Font = new Font("Calibri", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(229, 231, 235);
-            label2.Location = new Point(805, 3);
+            label2.Location = new Point(1208, 4);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(30, 35);
+            label2.Size = new Size(35, 40);
             label2.TabIndex = 5;
             label2.Text = "X";
             label2.Click += label2_Click;
@@ -75,9 +77,10 @@
             label5.AutoSize = true;
             label5.Font = new Font("Calibri", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.FromArgb(229, 231, 235);
-            label5.Location = new Point(353, 62);
+            label5.Location = new Point(530, 93);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(139, 35);
+            label5.Size = new Size(163, 40);
             label5.TabIndex = 4;
             label5.Text = "Main Form";
             // 
@@ -86,21 +89,24 @@
             label1.AutoSize = true;
             label1.Font = new Font("Calibri", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(229, 231, 235);
-            label1.Location = new Point(226, 9);
+            label1.Location = new Point(389, 9);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(402, 54);
+            label1.Size = new Size(474, 64);
             label1.TabIndex = 3;
             label1.Text = "CAR RENTAL SYSTEM";
+            label1.Click += label1_Click;
             // 
             // guna2CirclePictureBox1
             // 
             guna2CirclePictureBox1.Image = (Image)resources.GetObject("guna2CirclePictureBox1.Image");
             guna2CirclePictureBox1.ImageRotate = 0F;
-            guna2CirclePictureBox1.Location = new Point(161, 182);
+            guna2CirclePictureBox1.Location = new Point(242, 273);
+            guna2CirclePictureBox1.Margin = new Padding(4, 4, 4, 4);
             guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges1;
+            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges3;
             guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CirclePictureBox1.Size = new Size(516, 256);
+            guna2CirclePictureBox1.Size = new Size(774, 384);
             guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             guna2CirclePictureBox1.TabIndex = 2;
             guna2CirclePictureBox1.TabStop = false;
@@ -111,9 +117,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(93, 120);
+            button1.Location = new Point(140, 180);
+            button1.Margin = new Padding(4, 4, 4, 4);
             button1.Name = "button1";
-            button1.Size = new Size(106, 38);
+            button1.Size = new Size(159, 57);
             button1.TabIndex = 3;
             button1.Text = "CAR";
             button1.UseVisualStyleBackColor = false;
@@ -124,9 +131,10 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(211, 120);
+            button2.Location = new Point(316, 180);
+            button2.Margin = new Padding(4, 4, 4, 4);
             button2.Name = "button2";
-            button2.Size = new Size(134, 38);
+            button2.Size = new Size(201, 57);
             button2.TabIndex = 4;
             button2.Text = "CUSTOMER";
             button2.UseVisualStyleBackColor = false;
@@ -137,9 +145,10 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(357, 120);
+            button3.Location = new Point(536, 180);
+            button3.Margin = new Padding(4, 4, 4, 4);
             button3.Name = "button3";
-            button3.Size = new Size(112, 38);
+            button3.Size = new Size(168, 57);
             button3.TabIndex = 5;
             button3.Text = "RENTAL";
             button3.UseVisualStyleBackColor = false;
@@ -150,9 +159,10 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button4.ForeColor = Color.White;
-            button4.Location = new Point(477, 120);
+            button4.Location = new Point(716, 180);
+            button4.Margin = new Padding(4, 4, 4, 4);
             button4.Name = "button4";
-            button4.Size = new Size(125, 38);
+            button4.Size = new Size(188, 57);
             button4.TabIndex = 6;
             button4.Text = "RETURN";
             button4.UseVisualStyleBackColor = false;
@@ -163,9 +173,10 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button5.ForeColor = Color.White;
-            button5.Location = new Point(615, 120);
+            button5.Location = new Point(922, 180);
+            button5.Margin = new Padding(4, 4, 4, 4);
             button5.Name = "button5";
-            button5.Size = new Size(115, 38);
+            button5.Size = new Size(172, 57);
             button5.TabIndex = 7;
             button5.Text = "USERS";
             button5.UseVisualStyleBackColor = false;
@@ -174,9 +185,10 @@
             // 
             panel2.BackColor = Color.FromArgb(30, 58, 138);
             panel2.Dock = DockStyle.Bottom;
-            panel2.Location = new Point(0, 482);
+            panel2.Location = new Point(0, 723);
+            panel2.Margin = new Padding(4, 4, 4, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(838, 40);
+            panel2.Size = new Size(1257, 60);
             panel2.TabIndex = 8;
             // 
             // button6
@@ -185,18 +197,19 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.ForeColor = Color.White;
-            button6.Location = new Point(357, 438);
+            button6.Location = new Point(536, 657);
+            button6.Margin = new Padding(4, 4, 4, 4);
             button6.Name = "button6";
-            button6.Size = new Size(112, 38);
+            button6.Size = new Size(168, 57);
             button6.TabIndex = 9;
             button6.Text = "Logout";
             button6.UseVisualStyleBackColor = false;
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(838, 522);
+            ClientSize = new Size(1257, 783);
             Controls.Add(button6);
             Controls.Add(panel2);
             Controls.Add(button5);
@@ -206,6 +219,7 @@
             Controls.Add(button1);
             Controls.Add(guna2CirclePictureBox1);
             Controls.Add(panel1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "MainForm";
             Text = "MainForm";
             panel1.ResumeLayout(false);
